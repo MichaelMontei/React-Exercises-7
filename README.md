@@ -6,4 +6,4 @@ Found the following Exercises online to practice the concepts of React: https://
 Exercise Layout can befound here: 
 - still need to finish Exercise 7-9
 
-![pillars](images/knipsel.JPG)
+![pillars](images/layout.jpg)
