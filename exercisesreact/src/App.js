@@ -12,10 +12,7 @@ function App() {
     const handleSubmit = event => {
         console.log('handleSubmit ran');
         event.preventDefault();
-        console.log('firstName 👉️', firstName);
-        console.log('lastName 👉️', lastName);
-        setFirstName('');
-        setLastName('');
+        alert(`Hello ${firstName} ${lastName}`)
     }
     const [count, setCount] = useState(0);
 
@@ -26,11 +23,6 @@ function App() {
     function handleClick() {
         alert("Clicked");
     }
-
-    function greeting(){
-        alert("Hello {setFirstName} + {setLastName}");
-    }
-
 
     const animals = ['dog', 'cat', 'chicken', 'cow', 'sheep', 'horse'];
     const listAnimals = animals.map((animal) => <li>{animal}</li>);
@@ -86,23 +78,20 @@ function App() {
           <div>
               <h2>Exercise 7: Building A Form</h2>
               <form onSubmit={handleSubmit}>
-                  <label>Firstname: <input
-                      id="first_name"
-                      name="first_name"
+                  <label>Firstname:  <input
                       type="text"
-                      onChange={event => setFirstName(event.target.value)}
                       value={firstName}
+                      onChange={(e) => setFirstName(e.target.value)}
                   /></label>
                   <label>Lastname: <input
-                      id="last_name"
-                      name="last_name"
                       type="text"
                       value={lastName}
-                      onChange={event => setLastName(event.target.value)}
+                      onChange={(e) => setLastName(e.target.value)}
+
                   /></label>
                   <br/>
                   <br/>
-                  <button onClick={greeting} type="submit">GREET ME</button>
+                  <button type="submit">GREET ME</button>
               </form>
           </div>
 
