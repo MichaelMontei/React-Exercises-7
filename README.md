@@ -1,7 +1,7 @@
 # React-Exercises-9
 Simple 9 React Exercises to practice the concepts
 
-website can be found here: https://sparkly-torrone-39d171.netlify.app
+website can be found here: https://rad-sprinkles-1cb06b.netlify.app
 
 Found the following Exercises online to practice the concepts of React: https://coderfiles.dev/blog/reactjs-coding-exercises/
 
