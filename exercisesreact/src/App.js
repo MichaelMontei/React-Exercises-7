@@ -71,12 +71,16 @@ function App() {
           <hr/>
           <div>
               <h2>Exercise 6: Mapping Through A List And Rendering (With A Custom Component)</h2>
+              <p>In exercise 3, we mentioned that part of what makes React so great is that it allows us to create our custom, re-usable components.
+
+                  You only created a custom button there. This time, you'll create a custom component that displays each item from exercise 5:</p>
               <Animals/>
           </div>
           <br/>
           <hr/>
           <div>
               <h2>Exercise 7: Building A Form</h2>
+              <p>Build a form that accepts a first name and a last name. And instead of a boring "Submit" button, make a button that says "Greet Me" that when clicked, will alert "Hello [first name] [last name]!".</p>
               <form onSubmit={handleSubmit}>
                   <label>Firstname:  <input
                       type="text"
